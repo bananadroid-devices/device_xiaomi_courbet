@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "device_xiaomi_sm6150-common",
+    "target_path": "device/xiaomi/sm6150-common",
+    "remote": "banana-devices",
+    "branch": "13"
+  },
+  {
+    "repository": "vendor_xiaomi_courbet",
+    "target_path": "vendor/xiaomi/courbet",
+    "remote": "banana-devices",
+    "branch": "13"
+  },
+  {
+    "repository": "vendor_xiaomi_sm6150-common",
+    "target_path": "vendor/xiaomi/sm6150-common",
+    "remote": "banana-devices",
+    "branch": "13"
+  },
+  {
+    "repository": "vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/sweet-miuicamera",
+    "remote": "banana-gitlab",
+    "branch": "13-sweet"
+  },
+  {
+    "repository": "travarilo/kernel_xiaomi_courbet",
+    "target_path": "kernel/xiaomi/sm6150",
+    "remote": "github",
+    "branch": "master"
+  }
+]
