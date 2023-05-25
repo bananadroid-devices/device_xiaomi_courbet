@@ -13,6 +13,9 @@ $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
 
+# QR Code patch
+PATCH := $(shell ($(LOCAL_PATH)/vendor_patch.sh))
+
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
